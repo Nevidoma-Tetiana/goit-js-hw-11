@@ -1,6 +1,7 @@
 import axios from "axios";
 axios.defaults.baseURL = 'https://pixabay.com/api';
 const API_KEY = '25712416-b7f8b21cfce49117d938a95c8';
+// const BASE_URL = 'https://pixabay.com/api/';
 const PARAM = 'per_page=40&orientation=horizontal&image_type=photo&safesearch=true';
 
 class FetchImagesService {
