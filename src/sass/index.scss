@@ -1,5 +1,6 @@
 @import './common';
 @import './example';
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +11,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d9cddc;
+  background-color: #fff36d;
   background-size: 20px 20px;
     background-image:
       linear-gradient(to right, rgba(255, 255, 255, 0.367) 1px, transparent 1px),
@@ -23,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(148, 142, 240);
+  background-color: rgb(85, 137, 201);
   padding-top: 10px;
   padding-bottom: 10px;
   
@@ -44,17 +45,17 @@ button {
 
   font-size: 16px;
   font-weight: 600;
-  color: rgb(89, 82, 129);
+  color: rgb(82, 124, 145);
 
-  background-color: rgb(211, 177, 239);
-  border: 2px solid rgb(89, 82, 129);
+  background-color: rgb(96, 161, 221);
+  border: 2px solid rgb(38, 101, 202);
   border-radius: 4px;
 }
 button:active {
-  background-color: plum;
+  background-color: rgb(160, 190, 221);
   color: #ffffff;
-  border-color: palevioletred;
-  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  border-color: rgb(207, 216, 112);
+  box-shadow: 8px 8px 24px 0px rgb(77, 142, 228);
 }
 button.is-hidden {
   display: none;
